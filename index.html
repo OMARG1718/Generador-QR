@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Generador QR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Generador de Código QR</h1>
+
+  <input id="text" type="text" placeholder="Escribe texto o URL" />
+  <button onclick="generarQR()">Generar</button>
+
+  <div id="qrcode"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
